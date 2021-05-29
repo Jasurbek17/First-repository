@@ -1,0 +1,83 @@
+body {
+    background: cyan;
+}
+.divhead {
+    background:dodgerblue;
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.divleft {
+    float: left;
+    padding-left: 50px;
+    color: floralwhite;
+}
+ form {
+     margin-top: 30px;
+     margin-bottom: 100px;
+ }
+ p {
+     margin-top: 35px;
+ }
+ .started {
+     border-radius: 15px;
+     width: 120px;
+     height: 35px;
+     border:none;
+     background: #0000ff;
+     margin-top:  10px;
+     color: white;
+ }
+ .started:hover {
+     cursor: pointer;
+     width: 120px;
+     height: 37px;
+     transition: 0.5s;
+     background:blanchedalmond;
+     color: black;
+}
+.divright {
+    background-image: url(rasm1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    width: 40%;
+    height: 500px;
+    float: right;
+}
+li {
+    display: inline-block;
+    margin-left: 25px;
+    color: w
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color:blue;
+    
+}
+.page {
+    width: 70px;
+    height: 22px;
+    border: none;
+    border-radius: 10px;
+    background: #0000ff ;
+    color: white;
+}
+.page:hover {
+    cursor: pointer;
+    width: 75px;
+    height: 24px;
+    border: none;
+    border-radius: 10px;
+    background:gainsboro ;
+    color: black;
+    transition: 0.5s;
+
+}
